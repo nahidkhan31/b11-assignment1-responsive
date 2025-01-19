@@ -83,16 +83,39 @@ body{
 /* third section */
 
 .card{
-    display: flex;
+    background-color: rgb(245, 235, 235);
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 0 auto;
-    gap:20px
+    margin: 0 auto; 
+    gap: 20px;
 }
 .card-box{
-    background-color: rgb(245, 235, 235);
+    /* height: 200px;
+    width: 310px; */
+    background-color: white;
     padding: 20px;
-    border-radius: 20px;
-
+    border-radius: 10px; 
 }
+.card-box:hover{
+    background-color: rgb(209, 233, 211);
+}
+.card-box h4{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.card-box p{
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 70%;
+}  
+.pillar-h2{
+    font-size: 2.30rem;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} 
