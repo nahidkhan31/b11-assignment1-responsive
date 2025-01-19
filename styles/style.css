@@ -81,3 +81,18 @@ body{
     color: white;
 }
 /* third section */
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    gap:20px
+}
+.card-box{
+    background-color: rgb(245, 235, 235);
+    padding: 20px;
+    border-radius: 20px;
+
+}
