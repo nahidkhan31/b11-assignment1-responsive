@@ -41,3 +41,43 @@ body{
     border-radius: 6px;
     scale:1.1
 }
+/* Second Section */
+
+.second-section{
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(198, 228, 214);
+}
+.second-main{
+    margin: 117px 60px;
+}
+.second-h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.second-h3{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 24px;
+}
+.second-img{
+    width: 450px;
+    height: 400px;
+
+}
+.second-btn{
+    background-color:  rgb(0, 106, 80);
+    color: white;
+}
+.second-btn:hover{
+    background-color:  rgb(0, 106, 80);
+    color: white;
+}
+/* third section */
