@@ -39,9 +39,13 @@ body{
     border: 1px solid;
     color: rgba(0, 106, 80);
     border-radius: 6px;
-    scale:1.1
+    scale:1.1;
 }
 /* Second Section */
+main>section{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
 
 .second-section{
     justify-content: space-around;
@@ -119,3 +123,132 @@ body{
     margin-top: 50px;
     margin-bottom: 20px;
 } 
+/* fourth section */
+
+.vission-card{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+}
+.vission-card-01{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgba(84, 143, 245, 0.298);
+    width: 410px;
+    height: 300px;
+}
+.vission-card-01:hover{
+    background-color: rgba(84, 143, 245, 0.498);
+}
+.vission-card-02{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+    width: 410px;
+    height: 300px;
+}
+.vission-card-02:hover{
+    background-color: rgb(136, 206, 173);
+}
+.vission-card-03{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgb(247, 235, 207);
+    width: 410px;
+    height: 300px;
+}
+.vission-card-03:hover{
+    background-color: rgb(232, 208, 152);
+}
+.vission-card h4{
+    font-size: 1.30rem;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.vission-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    opacity: 70%;
+}
+.vission-btn1{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color: rgb(84, 144, 245);
+    border: none;
+    margin-top: 30px;
+}
+.vission-btn1:hover{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color: rgb(84, 144, 245);
+    border: none;
+    margin-top: 30px;
+    scale: 1.1;
+}
+.vission-btn2{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color:rgb(9, 161, 92);
+    border: none;
+    margin-top: 45px;
+}
+.vission-btn2:hover{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color: rgb(9, 161, 92);
+    border: none;
+    margin-top: 45px;
+    scale: 1.1;
+}
+.vission-btn3{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color:rgb(9, 161, 92);
+    border: none;
+    margin-top: 30px;
+}
+.vission-btn3:hover{
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    font-size: .9rem;
+    background-color: rgb(9, 161, 92);
+    border: none;
+    margin-top: 30px;
+    scale: 1.1;
+}
+.vission-h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.vission-p{
+    font-size: 1rem;
+    margin-bottom: 32px;
+    opacity: 70%;  
+}
