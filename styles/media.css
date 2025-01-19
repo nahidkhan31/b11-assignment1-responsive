@@ -1,5 +1,5 @@
 @media screen and (max-width:412px) {
-    .second-section, .card{
+    .second-section, .card, .vission-card{
         flex-direction: column;
         max-width: 412px;
         margin: 0 auto;
